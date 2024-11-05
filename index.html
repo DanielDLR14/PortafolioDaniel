@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniel de la Rosa</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div id="preloader">
+      <div class="jumping-dots">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <header id="header" class="header">
+      <div class="container container-lg">
+        <div class="header-nav">
+          <a href="#home" class="logo">D<span>.</span>Rosa</a>
+          <nav id="nav" class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#home" class="nav-link active">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contacto</a>
+              </li>
+            </ul>
+            <button id="nav-btn" class="nav-btn">
+              <img
+                id="nav-btn-img"
+                src="img/icons/open.svg"
+                alt="Botón de navegación"
+              />
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container container-lg">
+        <div
+          class="hero-row"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="1800"
+          data-aos-duration="2000"
+        >
+          <div class="hero-content">
+            <span class="hero-greeting">Hola, soy</span>
+            <h1 class="hero-heading">Daniel de la Rosa</h1>
+            <span class="hero-heading-subtitle"
+              >Estudiante de Ingeniería en Sistemas y Programador Backend</span
+            >
+            <div class="about-social-list">
+              <div class="social-links-row">
+                <a href="#!">
+                  <img
+                    src="img/social_icons/github.svg"
+                    alt="Enlace a GitHub"
+                  />
+                </a>
+                <a href="#!">
+                  <img
+                    src="img/social_icons/linkedin.svg"
+                    alt="Enlace a LinkedIn"
+                  />
+                </a>
+                <a href="#!">
+                  <img
+                    src="img/social_icons/facebook.svg"
+                    alt="Enlace a Facebook"
+                  />
+                </a>
+                <a href="#!">
+                  <img
+                    src="img/social_icons/instagram.svg"
+                    alt="Enlace a Instagram"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <a href="#projects" class="btn">Mi Portafolio</a>
+              <a href="#contact" class="btn btn-white">Contáctame</a>
+            </div>
+          </div>
+          <div class="hero-img">
+            <img
+              src="img/hero/hero.png"
+              alt="Imagen de perfil de Daniel de la Rosa"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-title">
+          <h2 class="title">Sobre mí</h2>
+        </div>
+        <div class="about-row">
+          <div class="about-content">
+            <p class="about-descr">
+              Soy estudiante de Ingeniería en Sistemas y trabajo como
+              programador backend. Me apasiona el desarrollo de software y la
+              resolución de problemas a través de la tecnología. Siempre estoy
+              en búsqueda de nuevas oportunidades para aprender y mejorar mis
+              habilidades.
+            </p>
+            <div class="about-download-btn">
+              <a href="#!" class="btn btn-white">Descargar CV</a>
+            </div>
+          </div>
+          <!-- Aquí se pueden agregar habilidades -->
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container container-lg">
+        <div class="projects-title">
+          <h2 class="title">Proyectos</h2>
+        </div>
+        <!-- Aquí se listan los proyectos -->
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-title">
+          <h2 class="title">Contacto</h2>
+        </div>
+        <div class="contact-content">
+          <p>
+            Cuéntame sobre tu proyecto.
+            <br />
+            ¡Hablemos y trabajemos juntos!
+          </p>
+        </div>
+
+        <form data-aos="zoom-in">
+          <div class="input-box">
+            <input type="text" name="name" placeholder="Nombre Completo" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Correo Electrónico"
+              required
+            />
+          </div>
+
+          <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Tu Mensaje"
+            required
+          ></textarea>
+        </form>
+
+        <div class="contact-button" data-aos="fade-up">
+          <a href="#!" class="btn btn-red">Enviar Mensaje</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <div class="social-links-row footer-social">
+            <a href="#!">
+              <img src="img/social_icons/github.svg" alt="Enlace a GitHub" />
+            </a>
+            <a href="#!">
+              <img src="img/social_icons/linkedin.svg" alt="Enlace a LinkedIn" />
+            </a>
+            <a href="#!">
+              <img src="img/social_icons/facebook.svg" alt="Enlace a Facebook" />
+            </a>
+            <a href="#!">
+              <img src="img/social_icons/instagram.svg" alt="Enlace a Instagram" />
+            </a>
+          </div>
+
+          <div class="footer-copyright">
+            <p>&copy; Copyright Daniel de la Rosa 2024 | Diseñado por Daniel de la Rosa</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="goToTop" class="goToTop">
+      <a href="#home">
+        <img src="img/icons/arrow_up.svg" alt="Volver al inicio" />
+      </a>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
